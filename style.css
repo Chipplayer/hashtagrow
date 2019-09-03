@@ -1,0 +1,405 @@
+/* Css */
+@import url('https://fonts.googleapis.com/css?family=Nunito|Quicksand');
+
+@import url('https://fonts.googleapis.com/css?family=DM+Sans|Josefin+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Heebo|Oswald');
+
+
+
+
+
+
+
+
+/* Full Body Section */
+
+section.section.is-fullheight{
+  padding-top:0px;
+}
+
+
+/* Navbar */
+
+div.navbar-brand .navbar-item.logo{
+    color:#263238;
+  }
+  
+nav.navbar{
+  background: #12c2e9;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(45deg, #2D6DE9, #12c2e9);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(45deg, #2D6DE9, #12c2e9);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@media screen and (max-width: 1023px) {
+  div#navbarExampleTransparentExample.navbar-menu .navbar-end{
+    background: #12c2e9;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(45deg, #2D6DE9, #12c2e9);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(45deg, #2D6DE9, #12c2e9);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+    
+}
+
+hr{
+  margin-top:0px;
+}
+
+nav.navbar{
+  padding-left:65px;
+  padding-right:65px;
+  margin-top:0px;
+  -webkit-box-shadow: 2px 3px 15px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 3px 15px -7px rgba(0,0,0,0.75);
+box-shadow: 2px 3px 15px -7px rgba(0,0,0,0.75);
+
+
+}
+
+@media screen and (max-width: 1023px) {
+ nav.navbar {
+    position: sticky;
+    top:0px;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:5px;
+ 
+  }
+}
+
+div.navbar-item.has-dropdown.is-hoverable{
+  display:none;
+}
+
+
+@media screen and (max-width: 1023px) {
+  div.navbar-item.has-dropdown.is-hoverable {
+    display: inline;
+    
+  }
+}
+
+a.navbar-item{
+  font-family: 'DM sans', sans-serif;
+  font-weight:bold;
+  font-size: 17px;
+  
+}
+
+
+a.navbar-link{
+  color:#ffffff;
+}
+
+a.navbar-item{
+  color:#ffffff;
+}
+
+a.navbar-item.dum:hover{
+  color:#ffffff;
+  border-bottom:3px solid #ffffff;
+  background: inherit;
+}
+
+
+div#navbarExampleTransparentExample.navbar-menu.is-active{
+  background: #12c2e9;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(45deg, #2D6DE9, #12c2e9);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(45deg, #2D6DE9, #12c2e9);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+ a.navbar-item p{
+   font-family: 'Josefin sans', sans-serif;
+  font-weight: bold;
+  font-size: 33px;
+  color:#fff;
+  
+
+  }
+
+  div.navbar-burger.burger{
+    margin-top:5px;
+  }
+
+/*  Aside Menu  */
+
+@media screen and (max-width: 1023px) {
+    div.columns .column.asidenav{
+      display: none;
+    }
+  }
+
+  aside{
+    font-family: 'Josefin sans', sans-serif;
+    font-weight: bold;
+    
+  }
+
+
+ 
+
+
+  /* Columns */
+
+  
+
+
+
+  div.columns{
+    margin-top: 20px;
+  }
+
+  div.columns h1{
+    font-family: 'Josefin sans', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color:#394359;
+  }
+
+  @media only screen and (max-width: 660px) {
+    div.columns h1 {
+      font-size: 5.5vw;
+    }
+  }
+
+  
+
+
+  div.column p.notes{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    border-left:3px solid #1565C0;
+    background-color: #42A5F5;
+    color:#fff;
+    
+  }
+
+  @media only screen and (max-width: 660px) {
+    div.columns p.notes {
+      font-size: 4vw;
+    }
+  }
+
+
+
+  /* List Hover */
+
+
+  aside ul.menu-list a:hover {
+    background: #12c2e9;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(45deg, #2D6DE9, #12c2e9);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(45deg, #2D6DE9, #12c2e9);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
+    color:#ffffff;
+   
+    /* transition: all 0.2s ease-in-out; */
+  }
+
+  aside ul.menu-list .activemenu a{
+    background: #12c2e9;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(45deg, #2D6DE9, #12c2e9);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(45deg, #2D6DE9, #12c2e9);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color:#ffffff;
+   
+  }
+
+/* Hashpanels*/
+
+div.column .hashpanel{
+  text-align: right;
+}
+
+  /* /////////////////////////   Buttons  /////////////////////*/
+
+  div.column button.btn.acidpanel {
+    border-radius: 0px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    background-color: #207DFF;
+    border:0px;
+    color:#ffffff;
+    margin-top:5px;
+    margin-bottom:0px;
+  }
+  
+  div.column button.btn:hover{
+   border:0px;
+   
+  }
+
+
+
+
+
+
+  /*  Forms and Textareas */
+
+
+  textarea.textarea{
+    font-family:'DM sans', sans-serif;
+  }
+
+
+
+   textarea.textarea.acidpanel{
+    border:2px solid #207DFF;
+   }
+ 
+   textarea.textarea.acidpanel:hover{
+     border:2px solid#207DFF;
+   }
+
+
+
+  /*   ----------------------------SNACKBAR--------------------------   */
+  /* The snackbar - position it at the bottom and in the middle of the screen */
+#snackbar {
+  visibility: hidden; /* Hidden by default. Visible on click */
+  min-width: 250px; /* Set a default minimum width */
+  margin-left: -125px; /* Divide value of min-width by 2 */
+  background: #2193E9;
+  color: #ffffff; /* White text color */
+  text-align: center; /* Centered text */
+  font-family: 'Heebo', sans-serif; /* Font-family */
+  font-weight: bold; /* Bold Font */
+  border-radius: 3px; /* Rounded borders */
+  padding: 16px; /* Padding */
+  position: fixed; /* Sit on top of the screen */
+  z-index: 1; /* Add a z-index if needed */
+  left: 50%; /* Center the snackbar */
+  bottom: 30px; /* 30px from the bottom */
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+#snackbar.show {
+  visibility: visible; /* Show the snackbar */
+  /* Add animation: Take 0.5 seconds to fade in and out the snackbar. 
+  However, delay the fade out process for 2.5 seconds */
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;} 
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;} 
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+
+
+
+/*  H3  */
+div.column h1.h1seo{
+  font-family: 'DM sans', sans-serif;
+  font-weight: bold;
+  margin-bottom:7px;
+  font-size:18px;
+  
+}
+
+
+/* Footer  */
+
+footer.footer{
+  background-color: #222831;
+}
+
+footer.footer p{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  font-size:25px;
+  color:#fff;
+}
+
+footer.footer p b{
+  font-family: 'josefin sans', sans-serif;
+  font-weight: bold;
+  font-size:25px;
+  color:#fff;
+}
+
+
+/* Pretty Caption */
+textarea#yourcaption{
+  font-size:20px;
+  border:0px;
+  border-radius:0px;
+  padding:20px;
+  -moz-box-shadow:  0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  -webkit-box-shadow:  0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); 
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+
+/* Shadow Boxes */
+div.shadowed{
+  
+  -moz-box-shadow:  0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  -webkit-box-shadow:  0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); 
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  margin-top:50;
+  margin-bottom:50px;
+  padding:10px;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+.card{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  padding:30px;
+  text-align: center;
+  font-family:'Quicksand', sans-serif;
+  font-weight: bold;
+}
+
+.headbanner{
+  font-family: 'Josefin sans', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.pbanner{
+  font-family: 'Quicksand', Courier, monospace;
+  font-size: 18px;
+  color:#2B74E9;
+  font-weight: bold;
+}

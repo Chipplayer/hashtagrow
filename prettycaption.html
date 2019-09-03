@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pretty Caption</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <!--Custom Css-->
+    <link rel="stylesheet" href="style.css">
+
+
+  </head>
+  <body>
+
+ <!--Navbar-->
+ <nav class="navbar is-transparent ">
+    <div class="navbar-brand">
+      <a class="navbar-item logo" href="index.html">
+       <p>Hashta<b>Grow</b></p>
+      </a>
+      <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  
+    <div id="navbarExampleTransparentExample" class="navbar-menu">
+      <div class="navbar-end">
+        
+        <a class="navbar-item dum" href="index.html">
+         Free Hashtags
+        </a> 
+
+        <a class="navbar-item dum" href="prettycaption.html">
+          Pretty Caption
+        </a>
+
+        <a class="navbar-item dum" href="howitworks.html">
+          How it Works?
+        </a> 
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">
+           CATEGORIES
+          </a>
+          <div class="navbar-dropdown is-boxed">
+            <a class="navbar-item gradient" href="hashtag-animals.html">
+              #Animals 
+            </a>
+            <a class="navbar-item gradient" href="hashtag-travel.html">
+              #Travel
+            </a>
+            <a class="navbar-item gradient" href="hashtag-model.html">
+              #Model
+            </a>
+            <a class="navbar-item gradient" href="hashtag-emotions.html">
+              #Emotions
+            </a>
+            <a class="navbar-item gradient" href="hashtag-food.html">
+              #Food
+            </a>
+            <a class="navbar-item gradient" href="hashtag-quotes.html">
+              #Quotes
+            </a>
+            <a class="navbar-item gradient" href="hashtag-videos.html">
+              #Vehicles
+            </a>
+            <a class="navbar-item gradient" href="hashtag-memes.html">
+              #Memes
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+   <hr>
+
+
+  <section class="section is-fullhieght" style="padding-top:0px;">
+    <div class="columns">
+      <div class="column"></div>
+      <div class="column" style="text-align: center;"><img src="https://img.icons8.com/color/300/000000/worker-with-roadblock.png"></div>
+      <div class="column"></div>
+    </div>
+    <div class="columns">
+      <div class="column" style="text-align: center;font-family:'Quicksand', sans-serif;font-size:30px;font-weight: bold;color:black;">Pretty Caption Coming Soon </div>
+    </div>
+</section>
+
+
+
+
+
+<script>
+    (function() {
+      var burger = document.querySelector('.burger');
+      var nav = document.querySelector('#'+burger.dataset.target);
+     
+      burger.addEventListener('click', function(){
+        burger.classList.toggle('is-active');
+        nav.classList.toggle('is-active');
+      });
+    })();
+
+  
+    </script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"></script>
+<script>new ClipboardJS(".btn");</script>
+
+<script>
+  function myFunction() {
+  // Get the snackbar DIV
+  var x = document.getElementById("snackbar");
+
+  // Add the "show" class to DIV
+  x.className = "show";
+
+  // After 3 seconds, remove the show class from DIV
+  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+}
+
+</script>
+
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5bfcdee17afa0209"></script>
+
+
+
+  </body>
+</html>
