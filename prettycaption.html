@@ -88,19 +88,40 @@
    <hr>
 
 
-  <section class="section is-fullhieght" style="padding-top:0px;">
+  <section class="section is-fullhieght" style="padding-top:0px;text-align:center;">
+    <h1 style="font-family: 'Josefin sans', sans-serif;font-size: 29px;font-weight: bold;">- Pretty Caption -</h1>
     <div class="columns">
-      <div class="column"></div>
-      <div class="column" style="text-align: center;"><img src="https://img.icons8.com/color/300/000000/worker-with-roadblock.png"></div>
-      <div class="column"></div>
-    </div>
-    <div class="columns">
-      <div class="column" style="text-align: center;font-family:'Quicksand', sans-serif;font-size:30px;font-weight: bold;color:black;">Pretty Caption Coming Soon </div>
+      <div class="column"><img src="cover.png"> </div>
+     <div class="column" style="padding:10px;">
+
+        <div class="control" style="text-align: center;">
+            <textarea class="textarea has-fixed-size card-3" id="caption" rows="13" placeholder="Write your caption..."></textarea>
+            <button class="button btn is-info is-medium" style="margin:17px;" onclick="myFunction()" data-clipboard-target="#caption">Copy your caption!</button>
+          </div>
+
+     </div>
     </div>
 </section>
 
 
+<div id="snackbar">Your caption is Copied to Clipboard</div>
+      
 
+<!--footer-->
+<footer class="footer">
+    <div class="content has-text-centered">
+
+      <p>Share and Support <b>HashtaGrow</b></p>
+     
+                <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                <div class="addthis_inline_share_toolbox"></div>
+
+                <p style="font-size: 15px;margin-top:10px;">Vector credits: <a href="http://www.icons8.com">icons8.com</a> </p>
+
+      
+            
+    </div>
+  </footer>
 
 
 <script>
