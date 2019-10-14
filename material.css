@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Sans|Josefin+Sans&display=swap'); 
+@import url('https://fonts.googleapis.com/css?family=Nunito|Quicksand');
+
+.brand-logo{
+    font-family: 'Josefin sans', sans-serif;
+    font-weight: bold;
+}
+
+ul li{
+    font-family: 'DM sans', sans-serif;
+}
+
+#heading{
+    font-family:'DM sans', sans-serif;
+    font-size:24px;
+    font-weight: bold;
+    color:#616161;
+}
+
+.row{
+    margin:10px;
+}
