@@ -1,171 +1,67 @@
-<!DOCTYPE html>
-<html>
-  <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130099386-3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-130099386-3');
-</script>
+  <!DOCTYPE html>
+  <html>
+    <head>
+        <title>Hashtagrow - How it works?</title>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hashtagrow - How it works?</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    <!--Custom Css-->
-    <link rel="stylesheet" href="style.css">
-
-
-  </head>
-  <body>
-
- <!--Navbar-->
- <nav class="navbar is-transparent ">
-    <div class="navbar-brand">
-      <a class="navbar-item logo" href="index.html">
-       <p>Hashta<b>Grow</b></p>
-      </a>
-      <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </div>
-  
-    <div id="navbarExampleTransparentExample" class="navbar-menu">
-      <div class="navbar-end">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         
-        <a class="navbar-item dum" href="index.html">
-         Free Hashtags
-        </a> 
+        <!--Customize CSS-->
+        <link rel="stylesheet" href="material.css">
+    </head>
+    <body class="blue-grey lighten-4">
 
-        <a class="navbar-item dum" href="prettycaption.html">
-          Pretty Caption
-        </a>
-
-        <a class="navbar-item dum" href="howitworks.html">
-          How it Works?
-        </a> 
-
-        <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link" href="#">
-           CATEGORIES
-          </a>
-          <div class="navbar-dropdown is-boxed">
-            <a class="navbar-item gradient" href="hashtag-animals.html">
-              #Animals 
+        <nav>
+    <div class="nav-wrapper blue">
+        <div class="container">
+      <a href="index.html" class="brand-logo">Hashtagrow</a>
+      <a href="#" class="sidenav-trigger" data-target="mobile-links">
+          <i class="material-icons">menu</i>
             </a>
-            <a class="navbar-item gradient" href="hashtag-travel.html">
-              #Travel
-            </a>
-            <a class="navbar-item gradient" href="hashtag-model.html">
-              #Model
-            </a>
-            <a class="navbar-item gradient" href="hashtag-emotions.html">
-              #Emotions
-            </a>
-            <a class="navbar-item gradient" href="hashtag-food.html">
-              #Food
-            </a>
-            <a class="navbar-item gradient" href="hashtag-quotes.html">
-              #Quotes
-            </a>
-            <a class="navbar-item gradient" href="hashtag-vehicles.html">
-              #Vehicles
-            </a>
-            <a class="navbar-item gradient" href="hashtag-programming.html">
-              #Programming
-            </a>
-          </div>
-        </div>
-      </div>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="index.html">Free Hashtags</a></li>
+        <li><a href="prettycaption.html">Pretty Caption</a></li>
+        <li><a href="howitworks.html">How it works</a></li>
+      </ul>
+            </div>
     </div>
-  </nav>
-   <hr>
-
-
-
-
-
-
-
-   
-  <section class="section is-fullhieght" style="padding-top:0px;">
-    <div class="columns">
-      <div class="column"></div>
-      <div class="column" style="text-align: center;"><img src="https://img.icons8.com/cute-clipart/200/000000/help.png"></div>
-      <div class="column"></div>
-    </div>
-    <div class="columns">
-      <div class="column" style="text-align: center;font-family:'Quicksand', sans-serif;font-size:30px;font-weight: bold;color:black;">How it works?<br>
-    <p style="text-align: center;font-family:'Quicksand', sans-serif;font-size:20px;font-weight: bold;color:#393e46;margin-left:20px;margin-right:20px;">Using hashtags in your captions makes your post reach more people, and make give you more likes and followers. using hashtags daily in your captions is good for your page visibilty across social media. Hashtags help social media platforms to understand what your post is about so it can show to right people who may like and follow your page. Hahstagrow is a collection of ready to use hashtags.</p>
-    <img style="padding-top:20px;" src="https://img.icons8.com/cute-clipart/200/000000/feedback.png">
-    <p>Share Your Feedback!</p>
-    <div class="columns">
-      <div  class="column">Follow us on Instagram</div>
-      <div class="column"><a href="https://www.instagram.com/hashtagrow/"><button style="font-family: 'Quicksand',sans-serif;font-weight: bold;border:2px solid;" class="button is-large">Follow us</button></a></div>
-    </div>
-    </div>
-    </div>
-</section>
-
-
-<!--footer-->
-<footer class="footer">
-    <div class="content has-text-centered">
-
-      <p>Share and Support <b>HashtaGrow</b></p>
-     
-                <!-- Go to www.addthis.com/dashboard to customize your tools -->
-                <div class="addthis_inline_share_toolbox"></div>
-
-      
             
-    </div>
-  </footer>
-
-
-<script>
-    (function() {
-      var burger = document.querySelector('.burger');
-      var nav = document.querySelector('#'+burger.dataset.target);
-     
-      burger.addEventListener('click', function(){
-        burger.classList.toggle('is-active');
-        nav.classList.toggle('is-active');
-      });
-    })();
-
-  
-    </script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"></script>
-<script>new ClipboardJS(".btn");</script>
-
-<script>
-  function myFunction() {
-  // Get the snackbar DIV
-  var x = document.getElementById("snackbar");
-
-  // Add the "show" class to DIV
-  x.className = "show";
-
-  // After 3 seconds, remove the show class from DIV
-  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
-}
-
-</script>
-
-
-<!-- Go to www.addthis.com/dashboard to customize your tools -->
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5bfcdee17afa0209"></script>
-
-
-
-  </body>
-</html>
+  </nav>
+        <ul class="sidenav" id="mobile-links">
+       <li><a href="index.html">Free Hashtags</a></li>
+        <li><a href="prettycaption.html">Pretty Caption</a></li>
+        <li><a href="howitworks.html">How it works</a></li>
+        </ul>
+        
+        <!--Main page-->
+         <div class="container">
+          <div class="row">
+      <div class="col s12 white">
+          <div style="width:100%;text-align: center;padding-top:20px;">
+          <img src="howit.svg" width="300" height="300">
+              </div>
+          <span class="flow-text">
+          <h3 id="heading">How it works</h3></span>
+              <p>Using hashtags in your captions makes your post reach more people, and make give you more likes and followers. using hashtags daily in your captions is good for your page visibilty across social media. Hashtags help social media platforms to understand what your post is about so it can show to right people who may like and follow your page. Hahstagrow is a collection of ready to use hashtags. You can also check: <a href="privacypolicy.html" style="font-weight: bold;">Privacy Policy</a> and <a href="contactus.html" style="font-weight: bold;">Contact Us</a>.
+          </p>
+              </div>
+             </div>
+      </div>
+        
+        
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+       <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+        });
+        </script>
+    </body>
+  </html>
+        
